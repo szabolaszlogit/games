@@ -72,20 +72,21 @@ watch(results, () => {
 </script>
 
 <template>
-  <article class="center avenir mw8-ns">
+  <article class="">
     <h1 class="f4 bg-near-white br3 br--top black-60 mv3 pv4 ph3">
       Rock, paper, scissors
     </h1>
-    <div class="bg-light-yellow pa3 tc">
-      Computer choice:
-      <span>{{ computerChoice.icon }} {{ computerChoice.name }}</span>
-    </div>
-    <div class="bg-light-blue pa3 tc">
-      Player choice:
-
-      <span v-if="playerChoice"
-        >{{ playerChoice.icon }} {{ playerChoice.name }}</span
-      >
+    <div class="flex justify-center ma3">
+      <div class="bg-light-yellow pa3 tc">
+        Computer choice:
+        <span>{{ computerChoice.icon }} {{ computerChoice.name }}</span>
+      </div>
+      <div class="bg-light-blue pa3 tc">
+        Player choice:
+        <span v-if="playerChoice"
+          >{{ playerChoice.icon }} {{ playerChoice.name }}</span
+        >
+      </div>
     </div>
     <div
       class="tc bg-animate pa4 f3"
