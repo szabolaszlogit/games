@@ -4,7 +4,8 @@ import { reactive } from "vue";
 const navItems = reactive([
   { to: "/", txt: "Home" },
   { to: "rps", txt: "Rock, paper, scissors" },
-  {to: "memory", txt: "Memory Game"}
+  {to: "memory", txt: "Memory Game"},
+  {to: "mole", txt: "Mole"}
 ]);
 </script>
 

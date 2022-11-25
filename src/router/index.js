@@ -18,6 +18,12 @@ const router = createRouter({
       name: "memory",
       component: () => import("../components/memory/MemoryGame.vue"),
     },
+    ,
+    {
+      path: "/mole",
+      name: "mole",
+      component: () => import("../components/mole/MoleWack.vue"),
+    },
   ],
 });
 
