@@ -10,7 +10,7 @@ let time = ref(15);
 function clickHandler(e) {
   points.value = points.value + 1;
   hit.value = true;
-  e.target.style.backgroundImage = "ur('/mole/boom.svg')";
+  e.target.style.backgroundImage = "ur('/mole/boom.png')";
 }
 
 function generateRandomPos() {
@@ -89,7 +89,7 @@ let calculatedSpeed = computed(() => 3000 / speed.value);
   width: 200px;
   border: solid 1px grey;
   margin: 0.5rem;
-  background-image: url(mole/mole.svg);
+  background-image: url(mole/mole.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -99,7 +99,7 @@ let calculatedSpeed = computed(() => 3000 / speed.value);
   width: 200px;
   border: solid 1px grey;
   margin: 0.5rem;
-  background-image: url(mole/boom.svg);
+  background-image: url(mole/boom.png);
   background-repeat: no-repeat;
   background-position: center;
 }
