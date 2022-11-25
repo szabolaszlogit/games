@@ -89,7 +89,7 @@ let calculatedSpeed = computed(() => 3000 / speed.value);
   width: 200px;
   border: solid 1px grey;
   margin: 0.5rem;
-  background-image: url(mole/mole.png);
+  background-image: url(/mole/mole.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -99,7 +99,7 @@ let calculatedSpeed = computed(() => 3000 / speed.value);
   width: 200px;
   border: solid 1px grey;
   margin: 0.5rem;
-  background-image: url(mole/boom.png);
+  background-image: url(/mole/boom.png);
   background-repeat: no-repeat;
   background-position: center;
 }
